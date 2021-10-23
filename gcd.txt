@@ -28,6 +28,7 @@ int nonrecgcd(int x, int y)
  while(x % y != 0)
  {
  z = x % y;
+ 
  x = y;
  y = z;
  }
