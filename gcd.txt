@@ -23,6 +23,7 @@ int recgcd(int x, int y)
  }
 }
 int nonrecgcd(int x, int y)
+
 {
  int z;
  while(x % y != 0)
